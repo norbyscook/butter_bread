@@ -12,7 +12,6 @@ double get_double()
     return stod(input);
 }
 
-
 uint64_t get_64int()
 {
     string input;
@@ -23,6 +22,18 @@ uint64_t get_64int()
         cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     }
     return stoul(input);
+}
+
+string get_str()
+{
+    string input;
+    while (!(cin >> input))
+    {
+        cout << "is not a proper string\nagain: ";
+        cin.clear();
+        cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    }
+    return input;
 }
 
 bool is_decimal_str(string input)
@@ -39,7 +50,6 @@ bool is_decimal_str(string input)
     }
     return true;
 }
-
 
 bool is_int_str(string input)
 {
