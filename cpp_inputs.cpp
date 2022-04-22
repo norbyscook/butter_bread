@@ -17,7 +17,7 @@ uint64_t get_64int()
     string input;
     while(!(cin >> input) || !is_int_str(input))
     {
-        cout << "is not a interger\nagain: ";
+        cout << "is not a integer\nagain: ";
         cin.clear();
         cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     }
