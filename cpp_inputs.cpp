@@ -1,5 +1,6 @@
 #include "cpp_inputs.hpp"
 
+// get a double from console
 double get_double()
 {
     string input;
@@ -20,6 +21,7 @@ double get_double()
     return stod(input);
 }
 
+// get a 64 bit unsigned int from console
 uint64_t get_64int()
 {
     string input;
@@ -40,6 +42,7 @@ uint64_t get_64int()
     return stoul(input);
 }
 
+// get a string from console
 string get_str()
 {
     string input;
@@ -52,6 +55,7 @@ string get_str()
     return input;
 }
 
+// check to see if string is decimal
 bool is_decimal_str(string input)
 {
     if (input.empty())
@@ -71,6 +75,7 @@ bool is_decimal_str(string input)
     return true;
 }
 
+// check to see if string is interger
 bool is_int_str(string input)
 {
     if (input.empty())
