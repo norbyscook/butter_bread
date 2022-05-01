@@ -8,9 +8,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "cwd": "/home/andy/wsl_bkup/cpp_lib/andy_cpp_libs/Debug",
+      "cwd": "/home/andy/wsl_bkup/cpp_lib/andy_cpp_libs/butter_bread/debug/",
       "environment": [],
-      "program": "/home/andy/wsl_bkup/cpp_lib/andy_cpp_libs/Debug/build/Debug/outDebug",
+      "program": "/home/andy/wsl_bkup/cpp_lib/andy_cpp_libs/butter_bread/debug/${fileBasenameNoExtension}",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
       "miDebuggerPath": "/usr/bin/gdb",
@@ -21,7 +21,8 @@
           "text": "-enable-pretty-printing",
           "ignoreFailures": true
         }
-      ]
+      ],
+      "preLaunchTask": "C/C++: g++ build active file"
     }
   ]
 }
